@@ -24,3 +24,17 @@ img{
 body{
     color: var(--text-color);
 }
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 100px;
+    transition: 0.5 linear;
+    background: var(--bg-color);
+
+}
