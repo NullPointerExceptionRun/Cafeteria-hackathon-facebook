@@ -201,3 +201,16 @@ header.shadow {
     background: #f1f1f1;
     border-radius: 0.5rem;
   }
+  .products-container .box h3{
+      font-size: 1rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin: 0.5rem 0 0.5rem;
+  }
+
+  
+  .products-container .box .content{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  }
