@@ -63,6 +63,9 @@ header{
     display: flex;
     column-gap: 0.8rem;
 }
-.header-icon .bx:hover {
+.header-icon .bx {
     color: var(--bg-color);
+}
+.header-icon .bx:hover {
+    color: var(--main-color);
 }
