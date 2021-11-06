@@ -18,6 +18,9 @@
     --text-color: #1b1b1b;
     --bg-color: #fff;
 }
+.section{
+    padding: 50px 100px;
+}
 img{
     width: 100%;
 }
@@ -96,4 +99,16 @@ header{
     font-size: 1rem;    
     font-weight: 500;
 
+}
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background: url(/images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem,auto));
+    align-items: center;
+    gap: 1.5rem;
 }
