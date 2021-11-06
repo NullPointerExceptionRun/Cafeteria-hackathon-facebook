@@ -192,7 +192,7 @@ header.shadow {
   }
   /* tamanho da imagem e largura */
   /* Definido bordas e cores de sombra do item de compra */
-  .products-container img{
+.products-container img{
     width: 100%;
     height: 250px;
     object-fit: contain;
@@ -201,16 +201,25 @@ header.shadow {
     background: #f1f1f1;
     border-radius: 0.5rem;
   }
-  .products-container .box h3{
+.products-container .box h3{
       font-size: 1rem;
       font-weight: 600;
       text-transform: uppercase;
       margin: 0.5rem 0 0.5rem;
   }
 
-  
-  .products-container .box .content{
+
+.products-container .box .content{
       display: flex;
       align-items: center;
       justify-content: space-around;
   }
+.products-container .box .content span{
+    padding: 0 1rem;
+    color: var(--bg-color);
+    background: var(--main-color);
+    border: 4px;
+    font-weight: 500;
+
+
+}
