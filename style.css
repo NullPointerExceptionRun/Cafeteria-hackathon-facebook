@@ -84,3 +84,16 @@ header{
     background: var(--bg-color);
     width: 100%;
 }
+.search-box input{
+    padding: 20px;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 1rem;
+    color: var(--main-color);
+}
+.search-box input::placeholder{
+    font-size: 1rem;    
+    font-weight: 500;
+
+}
