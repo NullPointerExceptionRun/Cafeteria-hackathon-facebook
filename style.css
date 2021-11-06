@@ -218,8 +218,13 @@ header.shadow {
     padding: 0 1rem;
     color: var(--bg-color);
     background: var(--main-color);
-    border: 4px;
+    border-radius: 4px;
     font-weight: 500;
-
-
+}
+.products-container .box .content a{
+    padding: 0 1rem;
+    color: var(--text-color);
+    border: 2px solid var(--main-color);
+    border-radius: 4px;
+    font-weight: 500;
 }
