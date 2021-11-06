@@ -120,4 +120,16 @@ header{
 }
 .home-text p{
     font-size: 0.938rem;
+    color: var(--bg-color);
+    margin: 0.5rem 0 1.4rem;
+}
+.btn{
+    padding: 10px 40px;
+    border-radius: 0.3rem;
+    background-position: var(--main-color);
+    color: var(--bg-color);
+    font-weight: 500;
+}
+.btn:hover{
+    background: #8a6f4d;
 }
