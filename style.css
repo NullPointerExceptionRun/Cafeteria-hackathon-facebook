@@ -112,3 +112,12 @@ header{
     align-items: center;
     gap: 1.5rem;
 }
+.home-text h1{
+    font-size: 3.4rem;
+    color: var(--main-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.home-text p{
+    font-size: 0.938rem;
+}
