@@ -163,4 +163,10 @@ header.shadow {
       font-size: 0.938rem;
       margin: 0.5rem 0 1.1rem;
   }
-  
+  .heading{
+      text-align: center;
+  }
+  .heading h2{
+      font-size: 1.8rem;
+      text-transform: uppercase;
+  }
