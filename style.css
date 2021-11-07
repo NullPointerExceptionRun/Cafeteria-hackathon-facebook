@@ -314,3 +314,11 @@ header.shadow {
     flex-direction: column;
     row-gap: 0.5rem;
 }
+.contact span {
+    display: flex;
+    align-items: center;
+}
+.contact i{
+    font-size: 20px;
+    margin-right: 1rem;
+}
