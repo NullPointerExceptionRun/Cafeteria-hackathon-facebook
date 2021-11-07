@@ -309,3 +309,8 @@ header.shadow {
 .footer-box li a:hover{
     color: var(--main-color);
 }
+.contact{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
