@@ -264,3 +264,8 @@ header.shadow {
     object-fit: cover;
 
 }
+.customers-container .box:hover{
+    background: var(--second-color);
+    transition: 0.2s all linear;
+
+}
