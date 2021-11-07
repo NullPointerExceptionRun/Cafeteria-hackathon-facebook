@@ -245,3 +245,22 @@ header.shadow {
     border-radius: 0.5rem;
     text-align: center;
 }
+.stars .bx{
+    color: var(--main-color);
+}
+.customers-container .box p{
+    font-size: 0.938rem;
+}
+.customers-container .box h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0.5rem 0 0.5rem;
+}
+.customers-container .box img{
+ 
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
